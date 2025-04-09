@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std ;
 int binsum(){
-    if ()
+    if ();
 }
 
 int mian (){
