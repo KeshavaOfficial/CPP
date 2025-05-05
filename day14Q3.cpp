@@ -6,16 +6,17 @@ int subarray(int arr[], int n){
     for(int start =0; start<n; start++){
         int currsum = 0;
         for(int end =start; end<n; end++){
+            cout<< arr[end] << ", ";
             currsum = currsum + arr[end] ;
             maxsum = max(maxsum, currsum);
             
-        }
+        }cout << "\n";
     }cout<< "The maximum is  : "<< maxsum ;
     
 }
 
 int main(){
-    int arr [6] = {12,-1,23,-21, 45,-2};
+    int arr [6] = {-12,-1,23,-21, 45,-2};
     int n = sizeof(arr)/sizeof(int);
     subarray(arr,n);
     return 0;

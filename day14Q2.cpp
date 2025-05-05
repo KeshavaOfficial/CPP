@@ -13,7 +13,8 @@ int subarray(int arr[], int n){
             maxsum = max(maxsum, currsum);
             
         }cout<< "\n";
-    }
+        
+    }cout <<"MAX  :" << "(  "     <<maxsum     <<"  )";
 }
 
 int main(){
